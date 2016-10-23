@@ -19,48 +19,74 @@
 
 	<!-- CSS
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="static/css/normalize.css">
+	<link rel="stylesheet" href="static/css/skeleton.css">
+	<link rel="stylesheet" href="static/css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
 	<!-- Favicon
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<link rel="icon" type="image/png" href="images/favicon.png">
-
+	<link rel="icon" type="image/png" href="static/images/favicon.png">
 </head>
 <body>
 
 <!-- Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <div class="container">
-<div class="row">
-	<div class="one-half column" style="margin-top: 15%">
-		<h4>Lisa Jin</h4>
+	<div class="row">
+		<div class="one-half column" style="margin-top: 15%">
+			<h4>Lisa Jin</h4>
+		</div>
+	</div>
+	<div class="row">
+		<div class="one-half column" style="margin-bottom: 15%">
+			<h6>Who am I?</h6>
+			<p>Formally, a senior at the University of Michigan studying computer science.
+				Off the record, someone who is obsessed with making useful, elegant things
+				and fell in love with coding as a medium. Occasionally can found behind a music 
+				stand instead of a computer screen.</p>
+			<h6>What am I looking for?</h6>
+			<p>Many of my pursuits have been crosses between disciplines, with biology and 
+				healthcare featuring heavily. Currently, I am involved in graph mining research
+				with the goal of detecting developmental patterns in the brain. Such applied
+				work has always intrigued me, and I plan on continuing with research.</p>
+			<h6>When did I decide?</h6>
+			<p>Building web applications as an intern at Vodori and for the Kellogg Eye Center 
+				has shown me how quickly a problem can go from "thought-stuff" to solution. The 
+				learning process of facing an ill-defined problem has been the most enjoyable, 
+				and I hope to apply the confidence I gained to more open-ended questions.</p>
+			<h6>Where?</h6>
+			<p>Ann Arbor, MI.</p>
+			<h6>Why?</h6>
+			<p>Good question. Let me do some research and get back to you.</p>
+		</div>
+		<div class="one-half column">
+			<a class="button regenerate u-pull-right">Regenerate</a>
+			<div id="chart">
+				<svg></svg>
+			</div>
+			<div class="social u-pull-right">
+				<a class="button button-primary icon" href="https://www.linkedin.com/in/lisajin" target="_blank">
+					<i class="fa fa-linkedin fa-2x"></i>
+				</a>
+				<a class="button button-primary icon" href="https://www.github.com/lisjin" target="_blank">
+					<i class="fa fa-github fa-2x"></i>
+				</a>
+				<a class="button button-primary icon" href="mailto:lisajin@umich.edu" target="_blank">
+					<i class="fa fa-envelope-o fa-2x"></i>
+				</a>
+				<a class="button button-primary icon" href="static/LJin_Resume.pdf" target="_blank">
+					<i class="fa fa-file-text-o fa-2x"></i>
+				</a>
+			</div>
+		</div>
 	</div>
 </div>
-<div class="row">
-	<div class="one-half column" style="margin-bottom: 15%">
-		<h6>Who am I?</h6>
-		<p>Formally, a senior at the University of Michigan studying computer science.
-			Off the record, someone who is obsessed with making useful, elegant things
-			and fell in love with coding as a medium. Occasionally can found behind a music 
-			stand instead of a computer screen.</p>
-		<h6>What am I looking for?</h6>
-		<p>Many of my pursuits have been crosses between disciplines, with biology and 
-			healthcare featuring heavily. Currently, I am involved in graph mining research
-			with the goal of detecting developmental patterns in the brain. Such applied
-			work has always intrigued me, and I plan on continuing with research.</p>
-		<h6>When did I decide?</h6>
-		<p>Building web applications as an intern at Vodori and for the Kellogg Eye Center 
-			has shown me how quickly a problem can go from "thought-stuff" to solution. The 
-			learning process of facing an ill-defined problem has been the most enjoyable, 
-			and I hope to apply the confidence I gained to more open-ended questions.</p>
-		<h6>Where?</h6>
-		<p>Ann Arbor, MI.</p>
-		<h6>Why?</h6>
-		<p>Good question. Let me do some research and get back to you.</p>
-	</div>
-</div>
-</div>
+
+<!-- JS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="static/js/d3.v4.min.js"></script>
+<script src="static/js/tree.js"></script>
 
 <!-- End Document
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->

@@ -1,0 +1,22 @@
+/* SVG styling */
+svg {
+    width: 461px;
+    height: 600px;
+    font-family: helvetica, sans-serif;
+}
+
+path, line {
+    stroke: #777;
+}
+
+.icon {
+	padding: 10px 7px;
+}
+
+.icon .fa {
+	transform: translateY(-27%);
+}
+
+.social {
+	margin-top: 30px;
+}
