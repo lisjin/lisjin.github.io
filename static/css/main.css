@@ -9,14 +9,43 @@ path, line {
     stroke: #777;
 }
 
+.icon-bar {
+	padding-top: 10px;
+}
+
 .icon {
-	padding: 10px 7px;
+	padding-left: 12px;
+	text-decoration: none;
 }
 
 .icon .fa {
 	transform: translateY(-27%);
 }
 
-.social {
-	margin-top: 30px;
+.credit {
+	font-size: .8em;
+}
+
+.container {
+	margin-top: 8.5%;
+	margin-bottom: 8.5%;
+}
+
+h4 {
+	color: #361D2E;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+}
+
+h6 {
+	color: #CDA073;
+	font-style: italic;
+}
+
+a {
+	color: #86A397;
+}
+
+a:hover {
+	color: #7A958A;
 }
