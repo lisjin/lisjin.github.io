@@ -1,7 +1,16 @@
+@font-face {
+	font-family: 'Atlas Grotesk';
+	src: url('../fonts/AtlasGrotesk-Light.ttf');
+}
+
 h4 {
 	color: #361D2E;
 	font-family: 'Playfair Display', serif;
 	font-weight: bold;
+}
+
+body {
+	font-family: 'Atlas Grotesk';
 }
 
 a {
