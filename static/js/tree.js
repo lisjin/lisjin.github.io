@@ -101,7 +101,7 @@ function update() {
 		.attr('y2', y2);
 }
 
-d3.selectAll('.regenerate')
+d3.selectAll('.js--regenerate')
 	.on('click', regenerate);
 
 regenerate(true);
