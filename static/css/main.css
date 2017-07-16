@@ -4,10 +4,6 @@ h4 {
 	font-weight: bold;
 }
 
-h6 {
-	color: #CDA073;
-}
-
 a {
 	color: #86A397;
 }
@@ -26,6 +22,7 @@ path, line {
 }
 
 .bio h6 {
+	color: #CDA073;
 	font-style: italic;
 }
 
@@ -51,4 +48,9 @@ path, line {
 	letter-spacing: .2rem;
 	margin: 6px auto auto 30px;
 	text-transform: uppercase;
+}
+
+.project-section {
+	padding: 2rem 0;
+	border-top: 1px solid #eee;
 }
