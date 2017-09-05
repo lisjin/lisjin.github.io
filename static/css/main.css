@@ -22,7 +22,7 @@ a:hover {
 }
 
 svg {
-	height: 600px;
+	height: 575px;
     width: 100%;
 }
 
@@ -33,6 +33,7 @@ path, line {
 .bio h6 {
 	color: #CDA073;
 	font-style: italic;
+	margin-bottom: 1rem;
 }
 
 .container {
@@ -49,7 +50,7 @@ path, line {
 }
 
 .icon .fa {
-	margin: 6px auto auto 10px;
+	margin: 0 auto auto 10px;
 }
 
 .nav-link {
@@ -62,4 +63,25 @@ path, line {
 .project-section {
 	padding: 2rem 0;
 	border-top: 1px solid #eee;
+}
+
+.self {
+	margin-left: 6%;
+}
+
+.self img {
+	display: none;
+}
+
+@media (min-width: 550px) {
+	.self img {
+		display: block;
+		border-radius: 50%;
+		width: 100px;
+		float: right;
+	}
+}
+
+.social {
+	margin-left: 2%;
 }

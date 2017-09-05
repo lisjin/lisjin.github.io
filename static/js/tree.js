@@ -3,7 +3,7 @@
 
 // Tree configuration
 var branches = [];
-var seed = {i: 0, x: 420, y: 600, a: 0, l: 130, d:0}; // a = angle, l = length, d = depth
+var seed = {i: 0, x: 420, y: 575, a: 0, l: 130, d:0}; // a = angle, l = length, d = depth
 var da = 0.5; // Angle delta
 var dl = 0.8; // Length delta (factor)
 var ar = 0.7; // Randomness
