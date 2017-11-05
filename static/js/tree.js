@@ -9,7 +9,6 @@ var dl = 0.8; // Length delta (factor)
 var ar = 0.7; // Randomness
 var maxDepth = 10;
 
-
 // Tree creation functions
 function branch(b) {
 	var end = endPt(b), daR, newB;
@@ -50,6 +49,9 @@ function regenerate(initialise) {
 	branches = [];
 	branch(seed);
 	initialise ? create() : update();
+
+	// CUSTOM: Randomly change the quote above the tree
+	$.when.apply(null, quotes).then(changeQuote);
 }
 
 function endPt(b) {
