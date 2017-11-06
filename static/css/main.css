@@ -72,6 +72,7 @@ path, line {
 @media (min-width: 550px) {
 	.quote {
 		border-right: 5px solid #eee;
+		color: #805E73;
 		font-size: 90%;
 		display: block;
 		line-height: 1.5;
@@ -87,6 +88,7 @@ path, line {
 
 	.quote > footer {
 		color: #777;
+		font-size: 88%;
 	}
 }
 

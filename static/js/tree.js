@@ -68,7 +68,7 @@ function y1(d) {return d.y;}
 function x2(d) {return endPt(d).x;}
 function y2(d) {return endPt(d).y;}
 function highlightParents(d) {
-	var colour = d3.event.type === 'mouseover' ? '#7A958A' : '#777';
+	var colour = d3.event.type === 'mouseover' ? '#805E73' : '#777';
 	var depth = d.d;
 	for(var i = 0; i <= depth; i++) {
 		d3.select('#id-'+parseInt(d.i)).style('stroke', colour);
