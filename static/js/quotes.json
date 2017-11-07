@@ -25,10 +25,6 @@
 			"quote": "If a man walks in the woods for love of them half of each day, he is in danger of being regarded as a loafer. But if he spends his days as a speculator, shearing off those woods and making the earth bald before her time, he is deemed an industrious and enterprising citizen."
 		},
 		{
-			"author": "Ralph Waldo Emerson",
-			"quote": "The wonder is that we can see these trees and not wonder more."
-		},
-		{
 			"author": "Friedrich Nietzsche",
 			"quote": "I am a forest, and a night of dark trees: but he who is not afraid of my darkness, will find banks full of roses under my cypresses."
 		},
@@ -39,6 +35,14 @@
 		{
 			"author": "Virginia Woolf",
 			"quote": "And all the lives we ever lived<br>and all the lives to be,<br>are full of trees and changing leaves."
+		},
+		{
+			"author": "Albert Camus",
+			"quote": "If I were a tree among trees, a cat among animals, this life would have a meaning or rather this problem would not arise, for I should belong to this world."
+		},
+		{
+			"author": "Immanuel Kant",
+			"quote": "Out of the crooked timber of humanity, no straight thing was ever made."
 		}
 	]
 }
