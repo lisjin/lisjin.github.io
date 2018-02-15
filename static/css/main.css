@@ -21,15 +21,6 @@ a:hover {
 	color: #7A958A;
 }
 
-svg {
-	height: 575px;
-    width: 100%;
-}
-
-path, line {
-    stroke: #777;
-}
-
 .bio h6 {
 	color: #CDA073;
 	font-style: italic;
@@ -50,7 +41,7 @@ path, line {
 }
 
 .icon .fa {
-	margin: 0 auto auto 10px;
+	margin: 0 auto 7px 7px;
 }
 
 .nav-link {
@@ -65,46 +56,6 @@ path, line {
 	border-top: 1px solid #eee;
 }
 
-.quote {
-	display: none;
-}
-
-@media (min-width: 550px) {
-	.quote {
-		border-right: 5px solid #eee;
-		color: #805E73;
-		font-size: 90%;
-		display: block;
-		line-height: 1.5;
-		padding-left: 75px;
-		padding-right: 15px;
-		text-align: right;
-	}
-
-	.quote > p {
-		font-style: italic;
-		margin-bottom: 1rem;
-	}
-
-	.quote > footer {
-		color: #777;
-		font-size: 88%;
-	}
-}
-
-.regenerate {
-	display: none;
-}
-
-@media (min-width: 550px) {
-	.regenerate {
-		display: block;
-	}
-}
-
-.self {
-	margin-left: 6%;
-}
 
 .self img {
 	display: none;
@@ -113,12 +64,9 @@ path, line {
 @media (min-width: 550px) {
 	.self img {
 		display: block;
-		border-radius: 50%;
+		border-radius: 10%;
 		width: 100px;
 		float: right;
 	}
 }
 
-.social {
-	margin-left: 2%;
-}
