@@ -5,8 +5,6 @@
 
 h4 {
 	color: #361D2E;
-	font-family: 'Playfair Display', serif;
-	font-weight: bold;
 }
 
 body {
@@ -64,8 +62,8 @@ a:hover {
 @media (min-width: 550px) {
 	.self img {
 		display: block;
-		border-radius: 10%;
-		width: 100px;
+		border-radius: 50%;
+		width: 120px;
 		float: right;
 	}
 }
