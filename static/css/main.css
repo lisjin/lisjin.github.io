@@ -42,11 +42,22 @@ a:hover {
 	margin: 0 auto 7px 7px;
 }
 
+.nav-item {
+	position: relative;
+	float: right;
+	margin-bottom: 0;
+}
+
 .nav-link {
 	font-weight: bold;
 	letter-spacing: .2rem;
 	margin: 6px auto auto 30px;
 	text-transform: uppercase;
+}
+
+.nav-list {
+	list-style: none;
+	margin-bottom: 0;
 }
 
 .project-section {
