@@ -73,7 +73,7 @@ a:hover {
 @media (min-width: 550px) {
 	.self img {
 		display: block;
-		border-radius: 10%;
+		border-radius: 5%;
 		width: 120px;
 		float: right;
 	}
