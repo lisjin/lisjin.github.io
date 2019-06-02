@@ -74,8 +74,7 @@ a:hover {
 	.self img {
 		display: block;
 		border-radius: 5%;
-		width: 120px;
-		float: right;
+		width: 150px;
 	}
 }
 
