@@ -14,6 +14,15 @@
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LL55XS7830"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'G-LL55XS7830');
+	</script>
+
 	<!-- FONT
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<link href="//fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
@@ -27,16 +36,6 @@
 	<!-- Favicon
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<link rel="icon" type="image/png" href="static/images/favicon.png">
-
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89614396-2"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-89614396-2');
-	</script>
 </head>
 <body>
 
@@ -59,6 +58,18 @@
 					<a class="nav-link u-pull-right" href="index.html">Home</a>
 				</li>
 			</ul>
+		</div>
+	</div>
+	<div class="row project-section">
+		<div class="offset-by-one three columns">
+			<p><strong>Advisor</strong>: Daniel Gildea</p>
+			<a class="button" href="https://drive.google.com/file/d/1HHDFBPU4IsVJkezlMzzO_CePXxwU8Klq/view" target="_blank">Code (AdjMatMul)</a>
+			<a class="button" href="https://drive.google.com/file/d/1l34WYuJaw0F1nYKVE6TQS9fsE-uGDC10/view" target="_blank">Code (FloWar)</a>
+		</div>
+		<div class="seven columns">
+			<h6><strong>Generalized Shortest-Paths Encoders for AMR-to-Text Generation</strong></h6>
+			<p>Recent neural AMR-to-text models apply Transformer self-attention to graph vertices rather than tokens. As a side-effect of this full pairwise attention graph structure may be lost. We build upon <a href="https://arxiv.org/abs/1911.07470" target="_blank">Cai and Lam (2020)</a> and include global graph paths in the attention mechanism to mitigate this.</p>
+			<p>In place of pairwise-unique shortest paths, we expose the model to all graph paths using generalized shortest-paths algorithms. We experiment with both Floyd-Warshall and adjacency matrix multiplication, finding that the latter performs best in terms of BLEU and chrF++.
 		</div>
 	</div>
 	<div class="row project-section">
@@ -116,7 +127,6 @@
 
 <!-- JS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<script></script>
 
 <!-- End Document
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->

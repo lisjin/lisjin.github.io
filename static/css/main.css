@@ -34,6 +34,10 @@ a:hover {
 	font-weight: bold;
 }
 
+.footnote {
+	font-style: italic;
+}
+
 .icon, .nav-link {
 	text-decoration: none;
 }

@@ -14,6 +14,15 @@
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LL55XS7830"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'G-LL55XS7830');
+	</script>
+
 	<!-- FONT
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<link href="//fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet" type="text/css">
@@ -27,17 +36,6 @@
 	<!-- Favicon
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<link rel="icon" type="image/png" href="static/images/favicons.png">
-
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89614396-2"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-89614396-2');
-	</script>
-
 </head>
 <body>
 
@@ -54,7 +52,7 @@
 					<a class="nav-link" href="mailto:lisajin@rochester.edu" target="_blank">Contact</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="static/lisajin-cv.pdf" target="_blank">CV</a>
+					<a class="nav-link" href="static/res.pdf" target="_blank">CV</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="projects.html">Projects</a>
@@ -65,15 +63,16 @@
 	<div class="row project-section">
 		<div class="offset-by-one seven columns bio">
 			<h6>About</h6>
-			<p>I am a computer science PhD student at the University of Rochester. My research area is natural language processing, and I am advised by <a href="http://www.cs.rochester.edu/~gildea/" target="_blank">Daniel Gildea</a>. I am interested in text generation from semantic structures like AMR.</p>
+			<p>I am pursuing a PhD at the University of Rochester advised by <a href="http://www.cs.rochester.edu/~gildea/" target="_blank">Daniel Gildea</a>. My research interests include text generation and semantic parsing for structures like <a href="https://amr.isi.edu" target="_blank">AMR</a>.</p>
 			<h6>Background</h6>
-			<p>I received my bachelor's degree from the University of Michigan in 2017, where I worked with <a href="http://web.eecs.umich.edu/~dkoutra/">Danai Koutra</a>. My <a href="projects.html">past projects</a> have involved areas such as dynamic graph visualization and image segmentation.</p>
-			<h6>Publications</h6>
-			<p>Lisa Jin and Daniel Gildea. “Generalized Shortest-Paths Encoders for AMR-to-Text Generation.“ COLING, December 2020.</p>
-			<p>Lisa Jin and Daniel Gildea. “<a href="https://arxiv.org/abs/1912.01682" target="_blank">AMR-to-Text Generation with Cache Transition Systems</a>.“ arXiv:1912.01582, December 2019.</p>
+			<p>I received my bachelor's degree from the University of Michigan, where I worked with <a href="http://web.eecs.umich.edu/~dkoutra/">Danai Koutra</a> on dynamic graph visualization.
+			<h6>Publications<sup><a href="#ast">*</a></sup></h6>
+			<p>Lisa Jin and Daniel Gildea. “<a href="https://www.aclweb.org/anthology/2020.coling-main.181.pdf" target="_blank">Generalized Shortest-Paths Encoders for AMR-to-Text Generation</a>.“ COLING, December 2020.</p>
+			<p>Lisa Jin and Daniel Gildea. “<a href="//arxiv.org/pdf/1912.01682.pdf" target="_blank">AMR-to-Text Generation with Cache Transition Systems</a>.“ arXiv:1912.01582, December 2019.</p>
 			<p>Lisa Jin. “<a href="static/area-paper.pdf" target="_blank">Text Generation from Abstract Meaning Representation</a>.” Area paper, University of Rochester, April 2019.</p>
-			<p>Neil Shah, Danai Koutra, Lisa Jin, Tianmin Zou, Brian Gallagher, Christos Faloutsos. “<a href="static/p75.pdf" target="_blank">On Summarizing Large-Scale Dynamic Graphs</a>.” Data Engineering Bulletin, September 2017, 40 (3).</p>
+			<p>Neil Shah, Danai Koutra, Lisa Jin, Tianmin Zou, Brian Gallagher, Christos Faloutsos. “<a href="//sites.computer.org/debull/A17sept/p75.pdf" target="_blank">On Summarizing Large-Scale Dynamic Graphs</a>.” Data Engineering Bulletin, September 2017, 40 (3).</p>
 			<p>Lisa Jin and Danai Koutra. “<a href="static/p40-jin.pdf" target="_blank">ECOviz: Comparative Visualization of Time-Evolving Network Summaries</a>.” KDD Workshop on Interactive Data Exploration and Analytics, August 2017.</p>
+			<p class="footnote" id="ast"><sup>*</sup>Summaries and code can be found <a href="projects.html">here</a>.</p>
 		</div>
 		<div class="offset-by-one two columns self">
 			<img src="static/images/self.jpg">
@@ -83,7 +82,6 @@
 
 <!-- JS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<script></script>
 
 <!-- End Document
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
