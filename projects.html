@@ -63,13 +63,37 @@
 	<div class="row project-section">
 		<div class="offset-by-one three columns">
 			<p><strong>Advisor</strong>: Daniel Gildea</p>
-			<a class="button" href="https://drive.google.com/file/d/1HHDFBPU4IsVJkezlMzzO_CePXxwU8Klq/view" target="_blank">Code (AdjMatMul)</a>
-			<a class="button" href="https://drive.google.com/file/d/1l34WYuJaw0F1nYKVE6TQS9fsE-uGDC10/view" target="_blank">Code (FloWar)</a>
+			<a class="button" href="//arxiv.org/abs/2108.12304" target="_blank">Paper</a>
+			<a class="button" href="//github.com/lisjin/lat-par" target="_blank">Code</a>
+		</div>
+		<div class="seven columns">
+			<h6><strong>Latent Tree Decomposition Parsers for AMR-to-Text Generation</strong></h6>
+			<p>To help close the structural gap between AMR graphs and their generated strings, we bias a graph encoder on the tree-like structure of AMRs. Since tree decompositions cluster graph edges into a hierarchy, we use them to augment AMR edge embeddings.</p>
+			<p>Our baseline graph encoder encodes edges by running an RNN along shortest graph paths. Instead, our model computes node embeddings of an expected tree decomposition via the inside-outside algorithm. As each node clusters AMR edges, we propagate its embedding to the edges it covers.</p>
+		</div>
+	</div>
+	<div class="row project-section">
+		<div class="offset-by-one three columns">
+			<p><strong>Advisor</strong>: Daniel Gildea</p>
+			<a class="button" href="//arxiv.org/abs/2108.12300" target="_blank">Paper</a>
+			<a class="button" href="//github.com/lisjin/td-attn" target="_blank">Code</a>
+		</div>
+		<div class="seven columns">
+			<h6><strong>Tree Decomposition Attention for AMR-to-Text Generation</strong></h6>
+			<p>Transformer-based graph encoders offer great flexibility in modeling pairwise vertex relationships. However, this expressiveness may contradict the goal of flattening AMR structure into a chain during text generation. We bias the encoder on graph-theoretic structures called <a href="//www.win.tue.nl/~nikhil/courses/2015/2WO08/treewidth-erickson.pdf" target="_blank">tree decompositions</a> that summarize AMR structure.</p>
+			<p>We use parent, sibling, and same-depth relationships of nodes in an AMR's tree decomposition to locally restrict vertex attention. This hierarchy (i) lends sparsity to vertex state updates and (ii) bridges graph and string structure. We find that it boosts performance by 1.6 BLEU over a self-attentive baseline.</p>
+		</div>
+	</div>
+	<div class="row project-section">
+		<div class="offset-by-one three columns">
+			<p><strong>Advisor</strong>: Daniel Gildea</p>
+			<a class="button" href="//www.aclweb.org/anthology/2020.coling-main.181.pdf" target="_blank">Paper</a>
+			<a class="button" href="//github.com/lisjin/gsp-enc" target="_blank">Code</a>
 		</div>
 		<div class="seven columns">
 			<h6><strong>Generalized Shortest-Paths Encoders for AMR-to-Text Generation</strong></h6>
 			<p>Recent neural AMR-to-text models apply Transformer self-attention to graph vertices rather than tokens. As a side-effect of this full pairwise attention graph structure may be lost. We build upon <a href="https://arxiv.org/abs/1911.07470" target="_blank">Cai and Lam (2020)</a> and include global graph paths in the attention mechanism to mitigate this.</p>
-			<p>In place of pairwise-unique shortest paths, we expose the model to all graph paths using generalized shortest-paths algorithms. We experiment with both Floyd-Warshall and adjacency matrix multiplication, finding that the latter performs best in terms of BLEU and chrF++.
+			<p>In place of pairwise-unique shortest paths, we expose the model to all graph paths using generalized shortest-paths algorithms. We experiment with both Floyd-Warshall and adjacency matrix multiplication, finding that the latter performs best in terms of BLEU and chrF++.</p>
 		</div>
 	</div>
 	<div class="row project-section">
